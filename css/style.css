@@ -104,14 +104,14 @@ header nav ul li a:hover::before {
 
 /****** Styles des boutons ***********/
 .btn {
-    width: Hug (167px)px;
+    width: Hug (173px);
     height: Fixed (50px)px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
     border-radius: 25px 0px 0px 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
-    border: 2px solid #D9D9D9
+    border: 2px solid #D9D9D9   
 }
 
 .btn:hover {

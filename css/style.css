@@ -36,6 +36,7 @@ a {
     font-size: 22px;
 }
 
+/****** header ***********/
 header {
     display: flex;
     justify-content: space-between;
@@ -99,6 +100,30 @@ header nav ul li a:hover::before {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Styles des boutons ***********/
+.btn {
+    display: inline-flex; /* Pour aligner l'icône et le texte */
+    align-items: center;
+    gap: 8px; /* Espacement entre l'icône et le texte */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* Taille de la police */
+    background-color: white; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Effet fluide */
+}
+
+.btn:hover {
+    background-color: #004bbd; /* Couleur plus foncée au survol */
+}
+
+/* Icône uniquement pour les boutons */
+.btn i {
+    font-size: 16px; /* Taille de l'icône */
 }
 
 /****** Hebergements And Populaires ***********/

@@ -92,11 +92,6 @@ header nav ul li a:hover::before {
  display: flex;
  width:377px;
 height:49px;
-border-radius: 15px 0px 0px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-border: 1px solid #F2F2F2
-
 }
 
 /* Conteneur de l'input */
@@ -113,16 +108,10 @@ border: 1px solid #F2F2F2
 /* Icône Font Awesome */
 .input-container i {
     width: 50px;
-height: 49px;
-gap: 0px;
-border-radius: 15px 0px 0px 15px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-    font-size: 18px;
-    color: #333;
-    background-color: #f5f5f5; /* Fond gris clair */
-    border: 1px solid #F2F2F2
-}
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px; 
+    border: 1px; 
+    }
 
 /* Input */
 .input-container input {
@@ -141,8 +130,6 @@ opacity: 0px;
     border: none;
     border-radius: 0 50px 50px 0;
     font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 .card {

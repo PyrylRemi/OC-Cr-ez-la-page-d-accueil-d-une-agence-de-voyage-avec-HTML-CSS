@@ -293,6 +293,7 @@ footer {
 }
 
 .footer-links h4 {
+    display: inline-flex;
     width: 77px;
     height: 21px;
     gap: 0px;

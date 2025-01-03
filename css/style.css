@@ -280,6 +280,46 @@ text-decoration-skip-ink: none;
     margin-bottom: 5px;
 }
 
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-links h4 {
+    width: 77px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #f2f2f2;
+
+
+
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
 
 
 

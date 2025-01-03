@@ -50,6 +50,10 @@ header .logo {
 header .logo img {
     height: 19px;
     width: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 header nav ul {

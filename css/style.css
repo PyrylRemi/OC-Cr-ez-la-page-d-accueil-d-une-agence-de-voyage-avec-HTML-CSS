@@ -134,12 +134,13 @@ height:49px;
 
 /****** Styles des boutons (les 4 du débuts) ***********/
 .bouton {
-    gap: 10px;
     width: 173px;
     height: 50px;
     padding: 4px 19px 4px 19px;
-    border: 2px solid #D9D9D9;
+    gap: 10px;
+    border: 2px solid #d9d9d9;
     border-radius: 25px ;
+    background-color: white;
     font-family: 'Raleway';
 font-size: 17px;
 font-weight: 700;
@@ -155,6 +156,41 @@ text-decoration-skip-ink: none;
 /* Icône uniquement pour les boutons */
 .bouton i {
     font-size: 22px; /* Taille de l'icône */
+}
+
+/* Conteneur pour l'information */
+.info-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* Icône infobarre */
+.info-container i {
+    width: 24px;
+height: 24px;
+gap: 0px;
+border: 1px 1px 1px 1px #D9D9D9;
+border-radius: 25%;
+opacity: 0px;
+
+
+
+}
+
+/* Texte de l'information */
+.info-container span {
+    color: #000; /* Couleur du texte */
+font-family: 'Raleway';
+font-size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 

@@ -331,8 +331,59 @@ footer {
     text-decoration-skip-ink: none;
     background: #f2f2f2;
 
+}
+
+/* Section Activités */
+.activites {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.activites h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Conteneur des cartes */
+.activite-cards {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+/* Style des cartes */
+.activite-card {
+    flex: 0 0 calc(25% - 20px); 
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
+/* Images */
+.activite-card img {
+    width: 297.5px;
+    height: 380px;
+    gap: 0px;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0px;    
+    object-fit: cover;
+}
+
+/* Informations sur les activités */
+.activite-info {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.activite-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
 }
 
 .footer-links ul {

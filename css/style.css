@@ -159,7 +159,7 @@ text-align: center;
 text-decoration-skip-ink: none;
 }
 
-.filtres-btn :hover {
+.filtres-btn:hover {
     background-color: var(--filter-bg-color); /* Couleur plus foncée au survol */
 }
 
@@ -209,15 +209,6 @@ text-decoration-skip-ink: none;
     border: 5px;
 }
 
-.card-hebergement  {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-}
-
-
-
-
 .card {
     background-color: white;
     border-radius: 20px;
@@ -263,7 +254,10 @@ text-decoration-skip-ink: none;
 .populaires {
     width: 32%;
 }
-
+.hebergement-container {
+    display: grid ;
+    grid-template-columns:repeat(3,1fr) ;
+}
 .populaires-title {
     display: flex;
     justify-content: space-between;

@@ -200,6 +200,23 @@ text-decoration-skip-ink: none;
 
 }
 
+/* Card hébergement */
+.card-hebergement img{
+    width: 250.33px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px;
+}
+
+.card-hebergement  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+
 
 .card {
     background-color: white;

@@ -159,7 +159,7 @@ text-align: center;
 text-decoration-skip-ink: none;
 }
 
-.bouton:hover {
+.filtres-btn :hover {
     background-color: var(--filter-bg-color); /* Couleur plus foncée au survol */
 }
 

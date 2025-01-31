@@ -112,10 +112,14 @@ height:49px;
 
 /* Icône Font Awesome */
 .input-container i {
+    display: flex;
     width: 50px;
+    height: 49px;
     gap: 0px;
-    border-radius: 15px 0px 0px 15px; 
-    border: 1px; 
+    border-radius: 15px 0px 0px 15px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F2F2F2;    
     }
 
 /* Input */
@@ -152,11 +156,11 @@ gap: 15px ;
     border-radius: 25px ;
     background-color: white;
     font-family: 'Raleway';
-font-size: 17px;
-font-weight: 700;
-line-height: 19.96px;
-text-align: center;
-text-decoration-skip-ink: none;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: center;
+    text-decoration-skip-ink: none;
 }
 
 .filtres-btn:hover {
@@ -180,10 +184,9 @@ text-decoration-skip-ink: none;
 /* Icône infobarre */
 .info-container i {
     width: 24px;
-    gap: 0px;
     border-radius: 50px 50px 50px 50px;
     border: 1px;
-    background-color: var(white);
+    border-color:#D9D9D9;
     height: 24px;
 }
 
@@ -201,6 +204,13 @@ text-decoration-skip-ink: none;
 }
 
 /* Card hébergement */
+
+.card-hebergement {
+    border-radius: 20px;
+    border-color: #D9D9D9;
+}
+
+
 .card-hebergement img{
     width: 250.33px;
     height: 124px;
@@ -257,6 +267,9 @@ text-decoration-skip-ink: none;
 .hebergement-container {
     display: grid ;
     grid-template-columns:repeat(3,1fr) ;
+    border-radius: 20px;
+    border-color: #D9D9D9;
+    box-sizing: border-box;
 }
 .populaires-title {
     display: flex;
@@ -396,6 +409,19 @@ footer {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+/* Style global */
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 20px;
+}
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -432,5 +458,11 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+  /* Styles pour mobile */
+  body {
+    font-size: 14px;
+}
+.container {
+    padding: 10px;
+}
 }

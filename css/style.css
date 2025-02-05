@@ -317,8 +317,11 @@ footer {
 
 .footer-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex around;
     text-align: left;
+    width: 100%;
+    max-width: 1440px;
+    gap: 20%;
 }
 
 .footer-links h4 {

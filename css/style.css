@@ -116,7 +116,7 @@ height:49px;
     height: 49px;
     gap: 0px;
     border-radius: 15px 0px 0px 15px;
-    border: 1px 0px 0px 0px;
+    border: 1px 0 0 ;
     background-color: #F2F2F2;    
     }
 
@@ -440,6 +440,7 @@ body {
     }
 
     .populaires-cards a {
+        display: flex;
         width: 30%;
     }
 
@@ -448,7 +449,7 @@ body {
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 

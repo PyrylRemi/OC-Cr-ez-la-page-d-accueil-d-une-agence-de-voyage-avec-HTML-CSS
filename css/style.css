@@ -40,7 +40,6 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: top;
     height: 100px;
 }
 

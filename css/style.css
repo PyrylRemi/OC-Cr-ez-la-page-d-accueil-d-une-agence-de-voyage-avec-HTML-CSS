@@ -13,6 +13,11 @@
     color: var(--main-color);
 }
 
+.fa-map-marker-alt {
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -102,11 +107,11 @@ height:49px;
 .input-container {
     display: flex;
     align-items: center;
-    padding: 10px;
     background-color: white;
-    border-radius: 50px 0 0 50px;
     flex: 1;
     border: 1px solid #ddd;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* Icône Font Awesome */
@@ -114,10 +119,10 @@ height:49px;
     display: flex;
     width: 50px;
     height: 49px;
-    gap: 0px;
-    border-radius: 15px 0px 0px 15px;
-    border: 1px 0 0 ;
-    background-color: #F2F2F2;    
+    gap: 0;
+    background-color: #F2F2F2;  
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;  
     }
 
 /* Input */

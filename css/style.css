@@ -499,7 +499,12 @@ body {
     header {
         display: block;
         align-content: center;
-}
+        margin-top: 20px;
+    }
+
+    a {
+        margin-left: 20px;
+    }
 
     .form-inline {
         justify-content: center;

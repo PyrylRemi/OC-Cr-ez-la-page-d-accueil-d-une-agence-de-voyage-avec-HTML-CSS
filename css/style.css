@@ -583,13 +583,13 @@ body {
         margin-bottom: 10px;
     }
     footer {
-        width: 300%;
+        width: 100%;
     }
     .footer-links {
         display: flex;
         flex-direction: column;
     }
-    
+
     section#filtres-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

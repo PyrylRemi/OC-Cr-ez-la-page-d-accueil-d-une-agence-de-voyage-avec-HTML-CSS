@@ -497,8 +497,8 @@ body {
     }
 
     .header {
+        display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .form-inline {
@@ -523,4 +523,7 @@ body {
     .cardPadding {
         padding-right: 29px;
     }
+    nav {
+        align-content: center;
+}
 }

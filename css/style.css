@@ -527,8 +527,12 @@ body {
     a.logo {
         display: flex;
         justify-content: center;
+    }
+    footer {
+        width: 300%;
+    }
+    section#filtres-container {
+        display: grid;
 }
-footer {
-    width: 300%;
 }
-}
+

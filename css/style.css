@@ -496,6 +496,15 @@ body {
         font-size: 14px;
     }
 
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-inline {
+        justify-content: center;
+    }
+
     .hebergement-container {
         display: flex;
         flex-direction: column;

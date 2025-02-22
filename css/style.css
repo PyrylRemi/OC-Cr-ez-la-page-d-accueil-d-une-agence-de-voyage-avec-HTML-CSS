@@ -507,6 +507,9 @@ body {
         margin-right: 60px;
     }
 
+    span {
+        margin-top: 20px;
+    }
     .form-inline {
         justify-content: center;
     }

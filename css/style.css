@@ -146,6 +146,18 @@ header nav ul li a:hover::before {
     font-size: 14px;
 }
 
+.input-container input {
+    font-weight: bold;
+    text-align:left;
+    margin-left: 20px;
+}
+/* Bouton Mobile */
+
+#search-form-btn-mobile {
+    display: none;
+
+}
+
 /****** Styles des Filtres (les 4 du débuts) ***********/
 
 #filtres-container {
@@ -501,6 +513,12 @@ body {
         align-content: center;
         margin-top: 20px;
     }
+    header nav ul li a:hover {
+        border-bottom: 2px solid var(--main-color);
+        text-decoration: none;
+        color: var(--main-color);
+        border-top: none ;
+    }
 
     a {
         margin-left: 60px;
@@ -514,6 +532,31 @@ body {
         justify-content: center;
     }
 
+    /* Bouton Mobile */
+
+    #search-form-btn-mobile {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        box-shadow: none;
+        border: none ;
+        background-color: transparent;
+    }
+
+    #search-form-btn-desktop {
+        display: none;
+    }
+
+    #search-form .fa-magnifying-glass {
+        color: #ffffff;
+        background-color: #0065FC;
+        box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+        font-size: 15px;
+        padding: 16px;
+        border-radius: 15px;
+    }
+    
+
     .hebergement-container {
         display: flex;
         flex-direction: column;
@@ -525,9 +568,10 @@ body {
     .populaires-cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .populaires-cards a {
-        width: 80%;
+        width: 100%;
     }
     .cardPadding {
         padding-right: 29px;
@@ -541,6 +585,11 @@ body {
     footer {
         width: 300%;
     }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
     section#filtres-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -555,6 +604,7 @@ nav {
 article.card-hebergement {
     width: 100%;
 }
+
 
 }
 

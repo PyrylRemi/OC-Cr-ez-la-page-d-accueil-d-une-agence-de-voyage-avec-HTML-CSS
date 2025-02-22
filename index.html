@@ -36,9 +36,13 @@
                     <form action="#" method="GET" class="form-inline">
                         <div class="input-container">
                             <i class="fas fa-map-marker-alt"></i>
-                            <input type="text" name="location" placeholder="Marseille, France" required>
+                            <input type="text" name="location" value="Marseille, France" required>
                         </div>
-                        <button type="submit" class="btn">Rechercher</button>
+                        <button type="submit" id="search-form-btn-desktop" class="btn">Rechercher</button>
+                        <!-- Mobile button -->
+                    <button type="submit" id="search-form-btn-mobile">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
                     </form>
                 </section>
                 <div>

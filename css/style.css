@@ -552,5 +552,9 @@ nav {
     align-items: center;
 }
 
+article.card-hebergement {
+    width: 100%;
+}
+
 }
 

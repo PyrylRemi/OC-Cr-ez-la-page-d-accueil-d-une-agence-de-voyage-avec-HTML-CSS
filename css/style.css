@@ -495,13 +495,7 @@ body {
     body {
         font-size: 14px;
     }
-
-    .logo {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-
+    
     .form-inline {
         justify-content: center;
     }
@@ -525,8 +519,9 @@ body {
         padding-right: 29px;
     }
     a.logo {
-        display: flex;
-        justify-content: center;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
     footer {
         width: 300%;

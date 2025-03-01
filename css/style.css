@@ -500,6 +500,10 @@ body {
     .populaires-cards .card-subtitle {
         font-size: 14px;
     }
+
+    .activite-card img {
+    width: 100%;
+    }
 }
 
 /* Small devices (phones, less than 768px) */

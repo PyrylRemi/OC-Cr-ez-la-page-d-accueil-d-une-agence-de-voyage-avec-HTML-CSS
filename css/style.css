@@ -61,7 +61,7 @@ header .logo img {
 header nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 68px;
     margin: 0;
     padding: 0;
 }

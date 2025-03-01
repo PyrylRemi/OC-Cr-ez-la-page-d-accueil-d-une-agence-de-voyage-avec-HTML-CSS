@@ -254,6 +254,8 @@ header nav ul li a:hover::before {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: 5px;
+    object-fit: cover;
+
 }
 
 .card {
@@ -520,11 +522,6 @@ body {
         border-top: none ;
     }
 
-    a {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
     span {
         margin-top: 20px;
     }
@@ -605,6 +602,14 @@ article.card-hebergement {
     width: 100%;
 }
 
+.activite-cards {
+    display:flex;
+    flex-direction: column;
 
+}
+
+.activite-card img{
+    width: 100%;
+}
 }
 

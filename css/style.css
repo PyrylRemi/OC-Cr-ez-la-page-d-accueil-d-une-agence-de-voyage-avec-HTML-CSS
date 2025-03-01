@@ -525,6 +525,9 @@ body {
         color: var(--main-color);
         border-top: none ;
     }
+    .toWrap{
+        white-space: wrap;
+    }
 
     span {
         margin-top: 20px;

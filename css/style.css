@@ -163,6 +163,7 @@ header nav ul li a:hover::before {
 #filtres-container {
     display: flex;
     gap: 15px;
+    margin-bottom: 30px;
 }
 
 .filtres-btn {
@@ -199,6 +200,7 @@ header nav ul li a:hover::before {
     margin-top: 10px;
     font-size: 16px;
     color: #000;
+    margin-bottom: 30px;
 }
 
 /* Icône infobarre */
@@ -502,7 +504,8 @@ body {
     }
 
     .activite-card img {
-    width: 100%;
+        width: 193.5px;
+        height: 270px;
     }
 }
 

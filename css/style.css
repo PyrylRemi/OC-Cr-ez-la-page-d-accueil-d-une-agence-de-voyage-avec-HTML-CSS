@@ -412,14 +412,13 @@ footer {
     flex: 0 0 calc(25% - 20px);
     background-color: var(--main-bg-color);
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 /* Images */
 .activite-card img {
     width: 297.5px;
-    height: 124px;
+    height: 439px;
     gap: 0px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -505,7 +504,7 @@ body {
 
     .activite-card img {
         width: 193.5px;
-        height: 270px;
+        height: 200px;
     }
 }
 

@@ -410,7 +410,6 @@ footer {
 /* Style des cartes */
 .activite-card {
     flex: 0 0 calc(25% - 20px);
-    background-color: var(--main-bg-color);
     border-radius: 15px;
 }
 

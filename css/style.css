@@ -417,7 +417,7 @@ footer {
 /* Images */
 .activite-card img {
     width: 297.5px;
-    height: 380px;
+    height: 124px;
     gap: 0px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
@@ -588,7 +588,7 @@ body {
         display: block;
         margin: 0 auto;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
     }
     footer {
         width: 100%;

@@ -357,6 +357,10 @@ header nav ul li a:hover::before {
     margin-bottom: 5px;
 }
 
+a.afficher-plus {
+    font-weight: bold;
+}
+
 footer {
     background-color: #f2f2f2;
     padding: 20px;

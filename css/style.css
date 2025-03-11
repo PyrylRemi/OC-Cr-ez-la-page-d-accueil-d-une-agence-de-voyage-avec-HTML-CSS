@@ -533,6 +533,11 @@ body {
         color: var(--main-color);
         border-top: none ;
     }
+    
+    .info-container{
+        margin-bottom: 10px;
+
+    }
     .toWrap{
         white-space: wrap;
     }
@@ -566,7 +571,6 @@ body {
     #search-form .fa-magnifying-glass {
         color: #ffffff;
         background-color: #0065FC;
-        box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
         font-size: 15px;
         padding: 16px;
         border-radius: 15px;
@@ -579,7 +583,6 @@ body {
     }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
-        gap: 20px;
     }
     .populaires-cards {
         display: flex;
@@ -609,6 +612,10 @@ body {
     section#filtres-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+}
+
+section.hebergements {
+    background-color: white;
 }
 
 nav {

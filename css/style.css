@@ -183,9 +183,10 @@ header nav ul li a:hover::before {
     text-decoration-skip-ink: none;
 }
 
+/* Couleur plus foncée au survol */
 .filtres-btn:hover {
     background-color: var(--filter-bg-color);
-    /* Couleur plus foncée au survol */
+    
 }
 
 /* Icône uniquement pour les boutons */
@@ -202,6 +203,7 @@ header nav ul li a:hover::before {
     font-size: 16px;
     color: #000;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* Icône infobarre */
@@ -283,7 +285,7 @@ header nav ul li a:hover::before {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements et Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
